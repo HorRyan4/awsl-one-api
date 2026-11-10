@@ -1,12 +1,10 @@
 name = "awsl-one-api"
 main = "src/index.ts"
 compatibility_date = "2025-04-28"
-routes = [
-	{ pattern = "your-domain.com-here", custom_domain = true },
-]
+
 
 [vars]
-ADMIN_TOKEN = "your-secure-admin-token-here"
+ADMIN_TOKEN = "1111"
 
 [assets]
 directory = "./public"
@@ -16,5 +14,5 @@ run_worker_first = ["/api/*", "/v1/*"]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "your-database-name-here"
-database_id = "your-database-id-here"
+database_name = "ai"
+database_id = "b57e7310-3348-40de-8fba-ffe22dd54525"
